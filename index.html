@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Calculater
+        </title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index-style.css">
+    </head>
+    <body>
+        <div class="container w-75 my-5 py-5">
+            <div class="row my-4 py-5 px-4 shadow">
+                <h1>Calculate Now</h1>
+                <div class="num1 my-3">
+                    <label class="my-2" for="firstNumber">First Number</label>
+                    <input class="form-control" type="number" name="firstNumber" id="firstNumber">
+                </div>
+                <div class="num2 my-2">
+                    <label class="my-2" for="secondNumber">Second Number</label>
+                    <input class="form-control" type="number" name="secondNumber" id="secondNumber">
+                </div>
+                <div class="btns mt-4">
+                    <button onclick="calculate('plus');" class="btn btn-outline-info me-2" type="submit">Sum</button>
+                    <button onclick="calculate('sub');" class="btn btn-outline-info me-2" type="submit">Subtract</button>
+                    <button onclick="calculate('div');" class="btn btn-outline-info me-2" type="submit">Division</button>
+                    <button onclick="calculate('multi');" class="btn btn-outline-info me-2" type="submit">Multible</button>
+                    <button onclick="calculate('mode');" class="btn btn-outline-info me-2" type="submit">Modulus</button>
+                </div>
+                <div id="result" class="btn-lg btn-outline-info bg-transparent text-white mt-4">Result :</div>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+</html>

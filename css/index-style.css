@@ -1,0 +1,16 @@
+body
+{
+    font-family: 'Segoe UI', "light";
+    background-color: #262936;
+}
+.row
+{
+    background-color: #262936;
+    color: #fff;
+    border-radius: 10px;
+}
+input
+{
+    background-color: transparent!important;
+    color: #fff!important;
+}
